@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+	<style type="text/css">
+	table, th, tr, td{
+			border : solid 1px black;
+			border-collapse: collapse;
+			padding: 7px;
+			margin:auto;
+			text-align:center; 
+		}
+	* { /*기본 값을 초기화 한다.*/
+    margin:0;
+    padding:0;
+    font-family: 'Nanum Myeongjo', serif;
+	}
+	ul{
+		list-style-type: none;
+	}
+	main{
+			width: 70%;
+			height: 700px;
+			margin: 0 auto;
+			/* border: solid 1px red; */
+
+		}
+	.clear{
+		clear : both;
+	}
+	
+	a:link {text-decoration:none;color:black} /*하이퍼링크 없애기*/
+	a:visited {text-decoration:none; color:black} /*방문해도 검정*/
+	a:hover {text-decoration:none;color:#F5A9E1} /*마우스 대면 색 변하기*/
+
+	header #sy{
+		float: left;
+		margin: 25px 0 0 20px;
+	}
+	header #pro{
+		float: right;
+		margin: 30px 5px 0px 10px;
+	}
+	#mini{font-size: 18px;}
+	/* #turn{
+		font-size: 18px;
+		transition : width 3s, height 3s, border 3s transform 3s;
+	}
+	#turn:hover{
+		transform : font-size(25px);
+	} */
+	#top_menu{ font-size: 14px; margin-right: 20px;}
+	header #top_menu li{
+		display: inline;
+	}
+	#psy{
+		margin-left: 38.5%;
+	}
+	#psy img{
+		width: 400px;
+	}
+	.line{
+		margin-top: 10px;
+		border-top: solid 1px #424242;
+	}
+	#main_menu{
+		margin-top: 25px;
+		text-align: center;
+		font-size: 15px;
+	}
+	#main_menu li{
+		display: inline;
+	}
+	#main_menu li a{
+		margin-left: 40px;
+	}
+	main{
+		width: 60%;
+		margin-top: 10px;
+	}
+	main#main_table{
+		margin-top: 50px;
+	}
+	table #intro{
+		margin-top: 50px;
+	}
+	#intro #blah{
+		/* visibility: hidden; */
+	}
+	footer{
+		color: #666666;
+		height: 20px;
+		margin-top: 100px;
+		border-top: solid 1px black;
+	}
+	footer #foot1{
+		margin-left: 25%;
+		float: left;
+		margin-top: 1.5%;
+		margin-bottom: 3%;
+
+		/* border:solid 1px #000000; */
+	}
+	footer #foot2{
+		float: left;
+		margin-left: 3%;
+		margin-top: 1.5%;
+		margin-bottom: 3%;
+		/* border:solid 1px #000000; */
+	}
+	footer #foot3{
+		float: left;
+		margin-left: 3%;
+		margin-top: 1.5%;
+		margin-bottom: 3%;
+	}
+	footer #company_info li{
+		margin-top: 2px;
+	}
+	footer #copyright{
+		margin-top: 10px;
+		font-size: 11px;
+		color: #888888;
+	}
+
+	</style>
+
+	<title>
+		Introduction
+	</title>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>  <!--자바를 통한 파일 선택-->
+    	<script type="text/javascript">
+        $(function() {
+            $("#imgInp").on('change', function(){
+                readURL(this);
+            });
+        });
+
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                    $('#blah').attr('src', e.target.result);
+                }
+              reader.readAsDataURL(input.files[0]);
+            }
+        }
+    	</script>
+</head>
+<body>
+
+	<header>
+		<nav>
+		<a href="index.html"><img id="sy" src="logo.jpg" width="100"></a>
+		<div id="pro">
+		<ul id="mini"><a href="mini_href.html" target="a_blank"><center>MINI PROJECT</center></a>
+		<br><br><br>
+			<ul id="top_menu"><small>
+				<li><a href="#"></a>로그인 |</li>
+				<li><a href="#"></a>회원가입 |</li>
+				<li><a href="#"></a>사이트맵 |</li>
+				<li><a href="#"></a>sy company 소개 |</li></small>
+			</ul>
+		</div>
+		<div id="psy"><a href="index.html"><img src="main_logo.png" alt="peach_soyoung logo"></a></div>
+		</nav>
+
+		<div class="clear"></div>
+		<div class="line"></div>
+
+		<nav>
+			<ul id="main_menu">
+ 			 <li><a href="intro.html">Introduction</a></li>
+ 			 <li><a href="hobby.html">Hobby</a></li>
+ 			 <li><a href="interest.html">Interest</a></li>
+ 			 <li><a href="rela.html">Duties ability</a></li>
+ 			 <li><a href="photo.html">Photo Gallery</a></li>
+ 			 <li><a href="https://www.instagram.com/ssso_oung97/" target="_blank">Instargram</a></li>
+ 			 </ul>
+		</nav>
+	</header>
+
+
+	<main id="main_table">
+	<div>
+	<table id="intro">
+		<tr>
+			<th width="410" height="310"> <img id="blah" width="400" height="300" src="#" alt="파일을 선택해주세요"></th>
+			<th rowspan="2">
+				이름 : 김소영 / Kim So Young<br>
+				나이 : 1997년 07월 25일<br>
+				사는 곳 : 인천광역시 부평구<br>
+				<address>
+				이메일 : <a href="dpvmsthdud@naver.com">Kim So Young</a>
+				</address><br>
+				<form>
+				프로젝트 수행기간<br>
+				From : <input type="date" name="from" min="2018-03-01" max="2018-12-31" value="2018-04-24">
+				To : <input type="date" name="to" min="2018-03-01" max="2018-12-31" value="totay">
+				</form>
+			</th>
+		</tr>
+		<tr>
+			<td >
+				 <form id="form1" runat="server">  <!--파일선택해서 넣기-->
+        			<input type='file' id="imgInp"/>
+       					
+   				 </form>
+			</td>	
+		</tr>
+		 
+	</table></center><br>
+	</div>
+
+	<div id="text">
+		<section>
+			저를 두 개의 키워드로 요약하자면 ‘흥’과 ‘정’으로 말할 수 있습니다.<br><br>
+			<p>흥 : 저는 흥이 많고 끼가 넘칩니다. 학창시절부터 지금까지 흥 담당을 해왔고, 분위기가 쳐지면 항상 밝은 에너지로 분위기메이커 역할을 맡아왔습니다. 그래서 팀 활동을 하면 항상 중재자로서 의견을 조율해 갈등을 최소화해서 긍정적으로 해결해갔고 항상 좋은 결과를 얻었습니다. 저의 넘치는 흥은 열정으로 가득합니다. 뚝심 없는 흥이 아니라 진짜 흥으로 다양한 경험을 쌓고 싶습니다.</p>
+			<p>정 : 사람을 좋아하는 저는 정이 많습니다. 사람들을 만나 인연을 쌓고, 추억을 만들어 가는 과정이 항상 설렙니다. 그 동안 좋은 사람들을 많이 만났고, 저 자신도 좋은 사람이 되기 위해 노력해왔습니다. 정이 넘치는 성격 때문에 상처도 받을 때도 있고 감정적으로 될 때도 있지만, 주변에서 이런 저의 성격 덕분에 마음이 따뜻해진다고 말해줍니다.</p>
+		</section>
+	</div>
+
+	<div><br><br><br>
+	<a href="index.html"><u><b>다시 돌아가기</b></u></a>
+	</div>
+
+	</main>
+
+
+
+	<footer>
+		<div id="foot1">
+			    <ul id="footer_menu">
+					<li>made by : So Young Kim</li>
+					<li>where : Goott Academy</li>
+				</ul>
+		</div>
+
+		<div id="foot2">
+				<ul id="company_info">
+					<li>(주)김소영</li>
+					<li>Address : 인천광역시 부평구 부평5동</li>
+					<li>Tel : 010-3719-2***</li>
+					<li id="copyright">Copyright by SoYoung All Rights Reserved.</li>
+			    </ul>
+		</div>
+
+		<div id="foot3">
+			<img src="f.gif" alt="">
+			<img src="t.gif" alt="">
+			<img src="dora.jpg" width="40" alt="">
+		</div>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background-color: #eeeeee;
+			font-family: "돋움";
+			font-size: 12px;
+			color:#666666;
+		}
+		li{
+			list-style-type : none;
+		}
+		.clear{
+			clear:both;
+		}
+		#header{
+			width: 800px;
+			height: 40px;
+			background-color: #dddddd;
+		}
+		#logo{
+			font-size: 16px;
+			color:  #3e2b23;
+			padding-top: 10px;
+			padding-left: 30px;
+		}
+		 #top_menu{
+			float: right;
+			margin-top: 10px;
+			margin-right: 10px;
+		}
+		#left{
+			float: left;
+			width: 150px;
+			height: 600px;
+			background-color: #343333;
+			color: #e2e2e2;
+		}
+		#left h2{
+			font-weight: normal;
+			padding-top: 20px;
+			padding-left: 30px;
+		}
+		#left ul{
+			font-size: 14px;
+			padding: 10px 10px 5px 25px;
+		}
+		#left li{
+			padding: 3px;
+		}
+		#right{
+			float: left;
+			width: 650px;
+			height: 600px;
+			background-color: #252525;
+		}
+		#main_title{
+			width: 572px;
+			padding: 10px;
+			border: solid 5px #444444;
+			margin-top: 24px;
+			margin-right: 24px;
+			font-size: 18px;
+			color: white;
+			font-weight: bold;
+		}
+		#main_img{
+			padding-top: 15px;
+			padding-left: 24px;
+		}
+		#thumnail{
+			margin-top: 30px;
+			margin-left: 70px;
+		}
+
+		#thumnail #move_left{
+			float: left;
+			margin: 20px 5px 0 40px;
+		}
+		#thumnail #move_right{
+			float: left;
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+		#thumnail #photos{
+			float: left;
+			margin-top: 3px;
+		}
+		#thumnail #photos li{
+			display: inline;
+			margin-left: 10px;
+		}
+		#thumnail #photos img{
+			border:solid 5px #3d3d3d;
+		}
+		#thumnail #photos a:hover img{
+			border:solid 5px #ffffff;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id ="header">
+		<div id="logo">PHOTO GALLERY</div>
+		<div id="top_menu">로그인 | 회원가입 | 방명록</div>
+	</div>
+
+	<div id= "left">
+		<h2>포토갤러리</h2>
+		<ul>
+			<li class="submenu">+ 풍경</li>
+			<li class="submenu">+ 일상</li>
+			<li class="submenu">+ 인물</li>
+			<li class="submenu">+ 가족</li>
+		</ul>
+	</div>
+
+	<div id="right">
+		<div id="main_title">
+			풍경 사진
+		</div>
+		<img id="main_img" src="b-1.jpg">
+		<div id="thumnail">
+			<img id="move_left" src="bt_move_left.gif">
+			<ul id="photos">
+				<li><a href="#"><img src="s-1.jpg"></li>
+				<li><a href="#"><img src="s-2.jpg"></li>
+				<li><a href="#"><img src="s-3.jpg"></li>
+				<li><a href="#"><img src="s-4.jpg"></li>
+				<li><a href="#"><img src="s-5.jpg"></li>
+			</ul>
+			<img id="move_right" src="bt_move_right.gif">
+		</div>
+	</div>
+</body>
+</html>

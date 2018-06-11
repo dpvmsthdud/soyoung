@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>R 프로젝트</title>
+	<style>
+	* { /*기본 값을 초기화 한다.*/
+    margin:0;
+    padding:0;
+    font-family: 'Nanum Myeongjo', serif;
+	}
+		ul{
+			list-style-type: none;
+		}
+		a:link {text-decoration:none;color:black} /*하이퍼링크 없애기*/
+		a:visited {text-decoration:none; color:black} /*방문해도 검정*/
+		a:hover {text-decoration:none;color:#F5A9E1} /*마우스 대면 색 변하기*/
+
+		.clear{
+			clear:both;
+		}
+		header h3{
+			text-align: center;
+			margin: 50px 0 50px 0;
+			font-size: 40px;
+		}
+		main section{
+			width: 1200px;
+			margin: 0 auto;
+		}
+		#r ul{
+			list-style-type:none;
+		}
+		#r ul li{
+			display: inline;
+		}
+		#r img{
+			width: 350px;
+			height: 360px;
+			padding: 4px;
+			margin-top: 30px;
+			margin-left: 10px;
+			margin-bottom: 7px;
+			border: 6px solid #e1d9ec;
+
+		}
+	</style>
+</head>
+<body>
+<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+	<header>
+		<h3>R PROJECT</h3>
+	</header>
+
+<div class="clear"></div>
+
+	<main>
+		<section>
+			<div id="r">
+				<ul>
+					<li><img src="r/male.png" alt="">남성 직업 빈도 상위 10개</li>
+					<li><img src="r/female.png" alt="">여성 직업 빈도 상위 10개</li>
+				</ul>
+
+			<div class="clear"></div>
+
+				<ul>
+					<li><img src="r/wordcloud.png" alt="">텍스트 마이닝 - 힙합 가사</li>
+					<li><img src="r/news.png" alt="">국정원 트윗 빈도표</li>
+				</ul>
+
+			<div class="clear"></div>
+				<ul>
+					<li><img src="r/gido.png" alt="">통계청 데이터</li>
+					<li><img src="r/pri2.png" alt="">김영삼 대통령님 연설문 분석</li>
+				</ul>
+
+			<div class="clear"></div>
+				<ul>
+					<li><img src="r/mu2.png" alt="">노무현 대통령님 연설문 분석</li>
+					<li><img src="r/gido.png" alt="">통계청 데이터</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+
+</body>
+</html>

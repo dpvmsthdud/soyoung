@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+	<style type="text/css">
+	table, th, tr, td{
+			border : solid 2.5px black;
+			border-collapse: collapse;
+			padding: 7px;
+			margin:auto;
+			text-align:center;
+		}
+	* { /*기본 값을 초기화 한다.*/
+    margin:0;
+    padding:0;
+    font-family: 'Nanum Myeongjo', serif;
+	}
+	ul{
+		list-style-type: none;
+	}
+	main{
+			width: 70%;
+			height: 700px;
+			margin: 0 auto;
+			/* border: solid 1px red; */
+
+		}
+	.clear{
+		clear : both;
+	}
+	
+	a:link {text-decoration:none;color:black} /*하이퍼링크 없애기*/
+	a:visited {text-decoration:none; color:black} /*방문해도 검정*/
+	a:hover {text-decoration:none;color:#F5A9E1} /*마우스 대면 색 변하기*/
+
+	header #sy{
+		float: left;
+		margin: 25px 0 0 20px;
+	}
+	header #pro{
+		float: right;
+		margin: 30px 5px 0px 10px;
+	}
+	#mini{font-size: 18px;}
+	/* #turn{
+		font-size: 18px;
+		transition : width 3s, height 3s, border 3s transform 3s;
+	}
+	#turn:hover{
+		transform : font-size(25px);
+	} */
+	#top_menu{ font-size: 14px; margin-right: 20px;}
+	header #top_menu li{
+		display: inline;
+	}
+	#psy{
+		margin-left: 38.5%;
+	}
+	#psy img{
+		width: 400px;
+	}
+	.line{
+		margin-top: 10px;
+		border-top: solid 1px #424242;
+	}
+	#main_menu{
+		margin-top: 25px;
+		text-align: center;
+		font-size: 15px;
+	}
+	#main_menu li{
+		display: inline;
+	}
+	#main_menu li a{
+		margin-left: 40px;
+	}
+	main{
+		width: 60%;
+		margin-top: 10px;
+	}
+	section#hobby{
+		margin-top: 50px;
+	}
+	footer{
+		color: #666666;
+		height: 20px;
+		margin-top: 100px;
+		border-top: solid 1px black;
+	}
+	footer #foot1{
+		margin-left: 25%;
+		float: left;
+		margin-top: 1.5%;
+		margin-bottom: 3%;
+
+		/* border:solid 1px #000000; */
+	}
+	footer #foot2{
+		float: left;
+		margin-left: 3%;
+		margin-top: 1.5%;
+		margin-bottom: 3%;
+		/* border:solid 1px #000000; */
+	}
+	footer #foot3{
+		float: left;
+		margin-left: 3%;
+		margin-top: 1.5%;
+		margin-bottom: 3%;
+	}
+	footer #company_info li{
+		margin-top: 2px;
+	}
+	footer #copyright{
+		margin-top: 10px;
+		font-size: 11px;
+		color: #888888;
+	}
+
+	</style>
+</head>
+<body>
+
+	<header>
+		<nav>
+		<a href="index.html"><img id="sy" src="logo.jpg" width="100"></a>
+		<div id="pro">
+		<ul id="mini"><a href="mini_href.html" target="a_blank"><center>MINI PROJECT</center></a>
+		<br><br><br>
+			<ul id="top_menu"><small>
+				<li><a href="#"></a>로그인 |</li>
+				<li><a href="#"></a>회원가입 |</li>
+				<li><a href="#"></a>사이트맵 |</li>
+				<li><a href="#"></a>sy company 소개 |</li></small>
+			</ul>
+		</div>
+		<div id="psy"><a href="index.html"><img src="main_logo.png" alt="peach_soyoung logo"></a></div>
+		</nav>
+
+		<div class="clear"></div>
+		<div class="line"></div>
+
+		<nav>
+			<ul id="main_menu">
+ 			 <li><a href="intro.html">Introduction</a></li>
+ 			 <li><a href="hobby.html">Hobby</a></li>
+ 			 <li><a href="interest.html">Interest</a></li>
+ 			 <li><a href="rela.html">Duties ability</a></li>
+ 			 <li><a href="photo.html">Photo Gallery</a></li>
+ 			 <li><a href="https://www.instagram.com/ssso_oung97/" target="_blank">Instargram</a></li>
+ 			 </ul>
+		</nav>
+	</header>
+	
+	<div>
+		<section id="hobby">
+	<table>
+		<tr>
+			<td><img src="dance.jpg" width="300"></td>
+		</tr>
+		<tr>
+			<th> 춤 배우기 </th>
+		</tr>
+
+		<tr>
+			<td><img src="tra.jpg" width="300"></td>
+		</tr>
+		<tr>
+			<th> 여행 하기 </th>
+		</tr>
+	</table><br>
+		</section>
+		<a href="index.html"><u><b>다시 돌아가기</b></u></a>
+	</div>
+
+	<footer>
+		<div id="foot1">
+			    <ul id="footer_menu">
+					<li>made by : So Young Kim</li>
+					<li>where : Goott Academy</li>
+				</ul>
+		</div>
+
+		<div id="foot2">
+				<ul id="company_info">
+					<li>(주)김소영</li>
+					<li>Address : 인천광역시 부평구 부평5동</li>
+					<li>Tel : 010-3719-2***</li>
+					<li id="copyright">Copyright by SoYoung All Rights Reserved.</li>
+			    </ul>
+		</div>
+
+		<div id="foot3">
+			<img src="f.gif" alt="">
+			<img src="t.gif" alt="">
+			<img src="dora.jpg" width="40" alt="">
+		</div>
+	</footer>
+
+</body>
+</html>

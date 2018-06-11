@@ -1,0 +1,158 @@
+.index .slideline .slide_waku .huti {
+	position: absolute;
+	top: 0px;
+	left: -10px;
+	z-index: 9900;
+}
+.index  h3 img {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.index .A01  {
+	width: 934px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 524px;
+	margin-top: 50px;
+	text-align: left;
+	position: relative;
+	margin-bottom: 53px;
+}
+.index .A01 .img01 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.index .A01 .img02 {
+	position: absolute;
+	left: 168px;
+	top: 35px;
+}
+.index .A01 .img03 {
+	position: absolute;
+	left: 83px;
+	top: 425px;
+}
+.index .A01 .img04 {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+.index .A01 .img05 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.index .A01 .img06 {
+	position: absolute;
+	left: 652px;
+	top: 35px;
+}
+.feed_waku  {
+	position: absolute;
+	left: 8px;
+	top: 80px;
+	height: 310px;
+	overflow-y: hidden;
+}
+.feed_waku li {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis; /* Safari */
+	-o-text-overflow: ellipsis; /* Opera */
+	white-space: nowrap;
+	border-bottom: 1px dotted #DDDDDD;
+	line-height: 160%;
+	width: 428px;
+	padding: 9px 5px;
+}
+.index .A01 .img07 {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+.index .fb-page {
+	position: absolute;
+	left: 498px;
+	top: 78px;
+}
+
+
+.index .A02  {
+	width: 934px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 386px;
+	margin-top: 17px;
+	position: relative;
+	margin-bottom: 15px;
+	font-size: 12px;
+	line-height: 130%;
+}
+
+.index .A02 .img01 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 217px;
+}
+.index .A02 .img02 {
+	position: absolute;
+	left: 239px;
+	top: 0px;
+	width: 217px;
+}
+.index .A02 .img03 {
+	position: absolute;
+	left: 478px;
+	top: 0px;
+	width: 217px;
+}
+.index .A02 .img04 {
+	position: absolute;
+	left: 717px;
+	top: 0px;
+	width: 217px;
+}
+.subline {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 154px;
+	background-repeat: repeat-x;
+	background-image: url(../images/sub_line.png);
+	margin-top: -37px;
+}
+.about #contents {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about .A01 {
+	width: 1000px;
+	height: 771px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.about .slide_waku {
+	margin-right: auto;
+	text-align: left;
+	position: relative;
+	left: 112px;
+	top: 11px;
+	width: 535px;
+	height: 750px;
+}
+.about .A01 .img01 {
+	position: absolute;
+	top: 11px;
+	left: 692px;
+}
+.about .A01 .img02 {
+	position: absolute;
+	top: 611px;
+	left: 756px;
+}

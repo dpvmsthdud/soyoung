@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+	<title>포토 갤러리</title>
+	<style>
+	* { /*기본 값을 초기화 한다.*/
+    margin:0;
+    padding:0;
+    font-family: 'Nanum Myeongjo', serif;
+	}
+	a:link {text-decoration:none; color:black} /*하이퍼링크 없애기*/
+	a:visited {text-decoration:none; color:black} /*방문해도 검정*/
+		ul{
+			list-style-type: none;
+		}
+		.clear{
+			clear:both;
+		}
+		header h3{
+			text-align: center;
+			font-size: 30px;
+			margin-top: 50px;
+		}
+		header #pink{
+			color:#F5A9E1;
+		}
+		.line{
+		margin-top: 25px;
+		border-top: solid 1px #424242;
+		}
+		aside#sub_menu{
+			width: 186px;
+			margin-top: 15px;
+			padding: 80px;
+			float : left;
+			background-repeat: no-repeat;
+		}
+		aside #sub_menu ul{
+			padding:20px;
+			background: white; /* 배경색 */
+			border: solid 1px black;
+  			border-radius: 20px
+		}
+		aside #sub_menu li{
+			margin: 10px 0 0 0;
+		}
+		aside #sub_menu a:link{
+			text-decoration: none;
+			font-size : 14px;
+			color:#444444;
+		}
+		aside #sub_menu a:hover{
+			text-decoration: none;
+			font-size: 14px;
+			color: #F5A9E1;
+			font-weight: bold;
+		}
+		aside #sub_menu a:visited{
+			text-decoration: none;
+			font-size: 14px;
+			color:#444444;
+		}
+		aside #sub_menu a:active{
+			text-decoration:none;
+			font-size: 14px;
+			color:#444444;
+		}
+		main section{
+			width: 1010px;
+			margin: 0 auto;
+		}
+		#image ul{
+			list-style-type:none;
+		}
+		#image ul li{
+			display: inline;
+		}
+		#image img{
+			width: 300px;
+			height: 320px;
+			padding: 4px; 
+			margin-top: 30px;
+			margin-right: 10px;
+			margin-bottom: 7px;
+			border: 6px solid #e1d9ec;
+			}
+		aside#top{
+			float: right;
+			margin : 0 100px 100px 0;
+			font-size: 40px;
+			border-bottom: solid 1px #F5A9E1;
+			border-top: solid 1px #F5A9E1;
+		}
+	</style>
+</head>
+<body>
+
+<div id ="total">
+
+	<header>
+		<h3><span id="pink">P</span>hoto <span id="pink">G</span>allery</h3>
+	</header>
+		<div class="line"></div>
+
+	<aside id="sub_menu">
+		<nav id="sub_menu">
+			<ul>
+				<li><a href="photo_me.html">일상</li>
+				<li><a href="photo_jp.html">일본 여행</li>
+				<li><a href="photo_vtn.html">베트남 여행</li>
+				<li><a href="photo_kr.html">국내 여행</li>
+				<li><a href="photo_food.html">좋아하는 음식</li>
+			</ul>
+		</nav>
+	</aside>
+
+	<main>
+		<section>
+			<div id="image">
+				<ul>
+					<li><img src="food1.jpg"></li>
+					<li><img src="food2.jpg"></li>
+					<li><img src="food3.jpg"></li>
+				</ul>
+			<div id="clear"></div>
+				<ul>
+					<li><img src="food4.jpg"></li>
+					<li><img src="food5.jpg"></li>
+					<li><img src="food6.jpg"></li>
+				</ul>
+			<div id="clear"></div>
+				<ul>
+					<li><img src="food7.jpg"></li>
+					<li><img src="food8.jpg"></li>
+					<li><img src="food9.jpg"></li>
+				</ul>
+			<div id="clear"></div>
+				<ul>
+					<li><img src="food10.jpg"></li>
+					<li><img src="food11.jpg"></li>
+					<li><img src="food12.jpg"></li>
+					
+				</ul>
+			</div>
+
+		</section>
+	</main>
+
+	<aside id="top">
+			<a href= #total>TOP</a>
+	</aside>
+</div>
+</body>
+</html>
